@@ -1,5 +1,6 @@
 module.exports = [{
   name: "gman",
+  aliases: ["gguide"],
   code: 
 `
 
