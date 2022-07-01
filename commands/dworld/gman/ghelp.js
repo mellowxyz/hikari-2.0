@@ -8,6 +8,7 @@ $title[1;・Gman Commands List]
 $description[1;These commands can be used by our fellow giveaway managers.]
 
 $addField[1;・Other Commands;
+\`$getServerVar[prefix]ghelp          :\` commands list for gw managers
 \`$getServerVar[prefix]gman           :\` complete guide for gw managers]
 
 $addField[1;・Ping Tags;
@@ -16,7 +17,10 @@ $addField[1;・Ping Tags;
 \`$getServerVar[prefix]ping-minigaw   :\` ping <@&979946638992891955>]
 
 $color[1;$getVar[ecolor]]
-$image[1;https://media.discordapp.net/attachments/976047400210804747/978911011706896394/unknown.png?width=994&height=24]
+$footer[1;Requested by $username]
+$addTimestamp[1]
+
+$addButton[1;﹒become a gman;5;https://discord.com/channels/840506530809643059/976009818391322644]
 
 `
   
