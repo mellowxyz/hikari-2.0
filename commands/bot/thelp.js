@@ -9,8 +9,7 @@ $editMessage[$get[msg];{
 {description:Select a category from the menu below}
 {timestamp}
 {image:https://media.discordapp.net/attachments/976047400210804747/977879140554395648/Cheers_2.png}
-{color:$getVar[ecolor]}}",
-"components" : "{actionRow:{selectMenu:helpMenu_$authorID:Select Category...:1:1:true:{selectMenuOptions:・action commands:actioncm:,,}{selectMenuOptions:・admin commands:funcm:,,}}}"}]
+{color:$getVar[ecolor]}}"}]
 
 
 $wait[20s]
