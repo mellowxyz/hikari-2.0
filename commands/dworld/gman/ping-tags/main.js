@@ -1,6 +1,6 @@
 module.exports = {
     name: "ping-maingiveaway",
-    aliases: ['ping-maingaw'],
+    aliases: ['ping-maingaw', 'ping-gaw'],
     $if : "v4",
     code: `
 $if[$message==]

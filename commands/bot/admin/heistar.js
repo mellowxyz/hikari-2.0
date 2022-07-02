@@ -38,6 +38,11 @@ type: "interaction",
 prototype: "button",
 code:
 `
+
+$deleteMessage[$messageID]
+
+$wait[5s]
+
 $interactionReply[$getVar[tick] **heist trigger has been enabled.**]
 $setServerVar[hsar;on]
 $onlyif[$advancedTextSplit[$interactionData[customId];_;2]==$interactionData[author.id];]
@@ -51,6 +56,11 @@ type: "interaction",
 prototype: "button",
 code:
 `
+
+$deleteMessage[$messageID]
+
+$wait[5s]
+
 $interactionReply[$getVar[tick] **disabled auto reply for \`heist\`.**]
 $setServerVar[hsar;off]
 

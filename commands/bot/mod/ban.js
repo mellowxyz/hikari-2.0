@@ -3,7 +3,9 @@ name:"ban",
 aliases: ['thanos','snap','gtfo', 'wipe-existence'],
 usage: "ban < userID > < reason >",
 info: "Ban a member from the server.",
-code: ` $ban[$findMember[$message[1];yes];$guildID;0;$if[$messageslice[1]==;No reason provided;$messageslice[1]]]
+code: ` 
+
+$ban[$guildID;$findMember[$message[1];yes];0;$if[$messageslice[1]==;No reason provided;$messageslice[1]]]
 
 $getVar[tick] Banned \`$userTag[$findMember[$message[1];yes]]\`
 

@@ -4,7 +4,7 @@ aliases: "unsnap",
 info: "Unban a member from the server.",
 usage: "unban < userID>",
 code: `
-$unban[$findUser[$message;yes];$guildid]
+$unban[$guildid;$findUser[$message;yes]]
 
 $getVar[tick] Unbanned user \`$usertag[$findUser[$message]]\`
 
