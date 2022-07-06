@@ -28,4 +28,6 @@ $onlyBotPerms[ban;$getVar[cross] I'm missing \`BAN_MEMBERS\` permission. {delete
 
 $onlyPerms[ban;$getVar[cross] You are missing \`BAN_MEMBERS\` permission. {delete:5s}]
 
+$onlyForIDs[$botOwnerID;$getVar[cross] Command under maintainence. {delete:5s}]
+
 `}

@@ -21,4 +21,6 @@ $argsCheck[>0;$getServerVar[cross] **Correct usage:** \`\`\`js
 $getservervar[prefix]$commandname [user]
 \`\`\` {delete:5s}]
 
+$onlyForIDs[$botOwnerID;$getVar[cross] Command under maintainence. {delete:5s}]
+
 `}
